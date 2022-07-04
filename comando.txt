@@ -1,0 +1,3 @@
+chmod 666 /var/run/docker.sock
+
+docker run -v $PWD/:/root -p 53:53/udp coredns/coredns -conf /root/Corefile

@@ -1,0 +1,19 @@
+msaludjujuy.gov.ar.		IN SOA 		dns1saludjjy.msaludjujuy.gov.ar hostmaster.msaludjujuy.local. 20220002 7200 3600 1209600 3600  
+
+msfirewall.msaludjujuy.gov.ar.	IN A		181.15.205.186
+
+msaludjujuy.gov.ar.		IN CNAME	181.15.205.186
+www.msaludjujuy.gov.ar.		IN CNAME	181.15.205.186
+msaludjujuy.gov.ar.		IN MX	10	181.15.205.186
+mail.msaludjujuy.gov.ar.	IN CNAME	181.15.205.187
+mas.msaludjujuy.gov.ar.		IN CNAME	181.15.205.187
+ambulatorio.msaludjujuy.gov.ar.	IN CNAME	181.15.205.187
+aps.msaludjujuy.gov.ar.		IN CNAME	181.15.205.187
+facturacion.msaludjujuy.gov.ar. IN CNAME	181.15.205.187
+federador.msaludjujuy.gov.ar.	IN CNAME	181.15.205.187
+internacion.msaludjujuy.gov.ar.	IN CNAME	181.15.205.187
+legajos.msaludjujuy.gov.ar.	IN CNAME	181.15.205.187
+registro.msaludjujuy.gov.ar.	IN CNAME	181.15.205.187
+sip.msaludjujuy.gov.ar.		IN CNAME	181.15.205.187
+turnoscall.msaludjujuy.gov.ar.	IN CNAME	181.15.205.187
+

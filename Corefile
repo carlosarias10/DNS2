@@ -1,0 +1,18 @@
+.:53 {
+	forward . 8.8.8.8 9.9.9.9
+	log
+	errors
+}
+
+msaludjujuy.gov.ar:53 {
+	file /root/msaludjujuy.db
+	log
+	errors
+}
+
+#186.205.15.181.in-addr.arpa{
+#	reverse 181.15.205.185/29 {
+#		hostname 186.205.15.181.in-addr.arpa
+#		ttl 3600
+#	}
+#}
