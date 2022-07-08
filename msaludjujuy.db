@@ -1,15 +1,16 @@
-msaludjujuy.gov.ar.			IN SOA 		dns1saludjjy.msaludjujuy.gov.ar hostmaster.msaludjujuy.local. 2022062230 86400 7200 2419200 3600  
+msaludjujuy.gov.ar.			IN SOA 		dns1saludjjy.msaludjujuy.gov.ar hostmaster.msaludjujuy.local. 2022062242 86400 7200 2419200 3600  
 
 dns1saludjjy.msaludjujuy.gov.ar.	IN A		181.15.205.190
 dns2saludjjy.msaludjujuy.gov.ar.	IN A		190.226.54.138
 
 msaludjujuy.gov.ar.			IN A		181.15.205.186
 www.msaludjujuy.gov.ar.			IN A		181.15.205.186
-srvmailsalud.msaludjujuy.gov.ar.	IN MX	10	181.15.205.186
+msmail.msaludjujuy.gov.ar.		IN MX	10	181.15.205.186
 
-msaludjujuy.gov.ar.			IN TXT		"v=spf1 ip4=181.15.205.186 ip4:181.15.205.188 mx:msaludjujuy.gov.ar a:mail.msaludjujuy.gov.ar -all"
+msaludjujuy.gov.ar.			IN TXT		"v=spf1 ip4=181.15.205.186 mx:msaludjujuy.gov.ar include:msmail.msaludjujuy.gov.ar ~all"
 
 mail.msaludjujuy.gov.ar.		IN A		181.15.205.188
+msmail.msaludjujuy.gov.ar.		IN A		181.15.205.186
 mas.msaludjujuy.gov.ar.			IN A		181.15.205.188
 ambulatorio.msaludjujuy.gov.ar.		IN A		181.15.205.188
 ambulatoriotest.msaludjujuy.gov.ar.	IN A		181.15.205.188
