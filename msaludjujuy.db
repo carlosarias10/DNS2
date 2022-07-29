@@ -7,7 +7,7 @@ msaludjujuy.gov.ar.			IN A		181.15.205.186
 www.msaludjujuy.gov.ar.			IN A		181.15.205.186
 msmail.msaludjujuy.gov.ar.		IN MX	10	181.15.205.186
 
-msaludjujuy.gov.ar.		    600	IN TXT		"v=spf1 ip4=181.15.205.186 mx:msaludjujuy.gov.ar include:msmail.msaludjujuy.gov.ar ~all"
+msaludjujuy.gov.ar.		    600	IN TXT		"v=spf1 mx ip4=181.15.205.186 ~all"
 
 dkim._domainkey.msaludjujuy.gov.ar. 600 IN TXT          "v=DKIM1; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDiAk1iXdESWQrwhH7rzkc8FyjCBguFsAH1DrVW7ZfHGiDqUrBgJY2NgkT/xjVBW8Nlu6rbJzCpDedPU89saglwmT7Iw90M+qJvxMZQAVeoZ4Bt5pVrbYAQBcGRJIgHCOvJs6UqtmSwsp4U50GeyfTzc3fGsKU7MKVKjjfTzzBvLwIDAQAB"
 

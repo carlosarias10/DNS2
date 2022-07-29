@@ -1,19 +1,31 @@
-msaludjujuy.gov.ar.		IN SOA 		dns1saludjjy.msaludjujuy.gov.ar hostmaster.msaludjujuy.local. 20220002 7200 3600 1209600 3600  
+msaludjujuy.gov.ar.			IN SOA		dns1saludjjy.msaludjujuy.gov.ar hostmaster.msaludjujuy.local. 2022062242 86400 7200 2419200 3600  
 
-msfirewall.msaludjujuy.gov.ar.	IN A		181.15.205.186
+dns1saludjjy.msaludjujuy.gov.ar.	IN A		181.15.205.190
+dns2saludjjy.msaludjujuy.gov.ar.	IN A		190.226.54.138
 
-msaludjujuy.gov.ar.		IN CNAME	181.15.205.186
-www.msaludjujuy.gov.ar.		IN CNAME	181.15.205.186
-msaludjujuy.gov.ar.		IN MX	10	181.15.205.186
-mail.msaludjujuy.gov.ar.	IN CNAME	181.15.205.187
-mas.msaludjujuy.gov.ar.		IN CNAME	181.15.205.187
-ambulatorio.msaludjujuy.gov.ar.	IN CNAME	181.15.205.187
-aps.msaludjujuy.gov.ar.		IN CNAME	181.15.205.187
-facturacion.msaludjujuy.gov.ar. IN CNAME	181.15.205.187
-federador.msaludjujuy.gov.ar.	IN CNAME	181.15.205.187
-internacion.msaludjujuy.gov.ar.	IN CNAME	181.15.205.187
-legajos.msaludjujuy.gov.ar.	IN CNAME	181.15.205.187
-registro.msaludjujuy.gov.ar.	IN CNAME	181.15.205.187
-sip.msaludjujuy.gov.ar.		IN CNAME	181.15.205.187
-turnoscall.msaludjujuy.gov.ar.	IN CNAME	181.15.205.187
+msaludjujuy.gov.ar.			IN A		181.15.205.186
+www.msaludjujuy.gov.ar.			IN A		181.15.205.186
+msmail.msaludjujuy.gov.ar.		IN MX	10	181.15.205.186
+
+msaludjujuy.gov.ar.		    600	IN TXT		"v=spf1 mx ip4=181.15.205.186 ~all"
+
+dkim._domainkey.msaludjujuy.gov.ar. 600 IN TXT          "v=DKIM1; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDiAk1iXdESWQrwhH7rzkc8FyjCBguFsAH1DrVW7ZfHGiDqUrBgJY2NgkT/xjVBW8Nlu6rbJzCpDedPU89saglwmT7Iw90M+qJvxMZQAVeoZ4Bt5pVrbYAQBcGRJIgHCOvJs6UqtmSwsp4U50GeyfTzc3fGsKU7MKVKjjfTzzBvLwIDAQAB"
+
+
+mail.msaludjujuy.gov.ar.		IN A		181.15.205.188
+msmail.msaludjujuy.gov.ar.		IN A		181.15.205.186
+mas.msaludjujuy.gov.ar.			IN A		181.15.205.188
+ambulatorio.msaludjujuy.gov.ar.		IN A		181.15.205.188
+ambulatoriotest.msaludjujuy.gov.ar.	IN A		181.15.205.188
+aps.msaludjujuy.gov.ar.			IN A		181.15.205.188
+aulavirtual.msaludjujuy.gov.ar.		IN A		181.15.205.188
+cronicos.msaludjujuy.gov.ar.		IN A		181.15.205.188
+facturacion.msaludjujuy.gov.ar.		IN A		181.15.205.188
+federador.msaludjujuy.gov.ar.		IN A		181.15.205.188
+internacion.msaludjujuy.gov.ar.		IN A		181.15.205.188
+legajos.msaludjujuy.gov.ar.		IN A		181.15.205.188
+registro.msaludjujuy.gov.ar.		IN A		181.15.205.188
+sip.msaludjujuy.gov.ar.			IN A		181.15.205.188
+sip-plus.msaludjujuy.gov.ar.		IN A		181.15.205.188
+turnoscall.msaludjujuy.gov.ar.		IN A		181.15.205.188
 
